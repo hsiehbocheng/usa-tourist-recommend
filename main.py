@@ -37,7 +37,7 @@ if __name__ == '__main__':
     driver = webdriver.Chrome(executable_path=driver_location, options=options)
     driver.maximize_window()
 
-    client = pymongo.MongoClient("mongodb+srv://nccustat:nccustat@nccustat.lxkhf1q.mongodb.net/?retryWrites=true&w=majority")
+    client = pymongo.MongoClient("")
     db = client.travel # 選擇操作 travel 資料庫
 
     # 選擇操作的集合
